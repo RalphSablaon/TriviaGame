@@ -1,0 +1,51 @@
+body {
+    background-image: url("../images/737497-PSB9BF-897.jpg");
+    background-size: 100%;
+}
+
+.inner-cover {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bolder;
+    border: 5px ridge rgb(170, 124, 24);
+    background-color: rgba(192, 119, 50, 0.425);
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 175px;
+    margin-right: 175px;
+}
+
+#countdown {
+    font-weight: bolder;
+}
+
+.trivia-ques.text-center {
+    border: 5px ridge rgb(170, 124, 24);
+    background-color: rgba(192, 119, 50, 0.425);
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bold;
+    font-size: 22px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+
+.question {
+    border-bottom: 2px solid black;
+}
+
+.results {
+    border: 5px ridge rgb(170, 124, 24);
+    background-color: rgba(192, 119, 50, 0.425);
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bold;
+    font-size: 22px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
