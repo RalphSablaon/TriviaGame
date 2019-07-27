@@ -59,7 +59,7 @@ $(document).ready(function() {
         // function to display summary of game
         function displaySummary(){
             $('.results').show();
-            unanswered = (6-(correctCount+wrongCount));
+            unanswered = (8-(correctCount+wrongCount));
             $('#correctScore').text("Correct Answers:" + " " + correctCount); 
             $('#wrongScore').text("Wrong Answers:" + " " + wrongCount); 
             $('#unanswered').text("Unanswered:" + " " + unanswered);
@@ -96,7 +96,7 @@ $(document).ready(function() {
         $('input[type=radio]').on ('change', function(){
         correctCount = $('input[value=correct]:checked').length;
         wrongCount = $('input[value=wrong]:checked').length;
-        unanswered = (6-(correctCount+wrongCount));
+        unanswered = (8-(correctCount+wrongCount));
         });
     
    
